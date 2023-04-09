@@ -1,0 +1,76 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug example",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/builds/example",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Debug convolution",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/builds/convolution",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "C/C++ Debug test_fib",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/cs/home/maat1/Documents/cs4204/P2",
+      "program": "/cs/home/maat1/Documents/cs4204/P2/builds/test_fib",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "C/C++ Debug test_conv",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/cs/home/maat1/Documents/cs4204/P2",
+      "program": "/cs/home/maat1/Documents/cs4204/P2/builds/test_conv",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/cs/home/maat1/Documents/cs4204/P2",
+      "program": "/cs/home/maat1/Documents/cs4204/P2/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "linux-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/src/library/common",
+                "${workspaceFolder}/src/library/common",
+                "${workspaceFolder}/src/library/common"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/lib64/ccache/gcc",
+            "cStandard": "${default}",
+            "cppStandard": "${default}",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
